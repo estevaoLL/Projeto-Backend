@@ -1,0 +1,108 @@
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#main label{
+    flex-shrink: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(19, 173, 212, 0.616);
+}
+
+.nav button{
+    height: max-content;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.nav button:hover{
+    background-color: rgb(174, 220, 233);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.search, .new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 1rem;
+    margin: 4rem 2rem;
+}
+
+.search button,.new button{
+    height: max-content;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(19, 173, 212, 0.616);
+}
+
+.search button:hover, .new button:hover{
+    background-color: rgb(174, 220, 233);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#query, #new-repo{
+    padding: 0.4rem;
+    font-size: large;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 350px;
+}
+
+.repositories{
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 650px;
+}
+
+#main .title{
+    font-size: 1.3rem;
+}
+
+.list{
+    list-style: none;
+    width: 100%;
+}
+
+.item{
+    background-color: rgba(19, 173, 212, 0.616);
+    border-bottom: 4px solid #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item button{
+    padding: 0.5rem;
+    border-radius:200px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.item button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgb(255, 70, 70);
+    transition: 0.1s;
+}
